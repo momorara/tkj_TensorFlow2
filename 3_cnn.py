@@ -131,7 +131,8 @@ model.compile(
 # 4. 学習
 # -----------------------------------------
 
-epochs = 2  # Raspberry Piでは10~20程度が妥当
+epochs = 2  # Raspberry Piでは10~100程度が妥当 
+# 時間がある限り増やして、過学習する手前で止める
 
 history = model.fit(
     train_generator,
