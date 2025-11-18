@@ -1,0 +1,19 @@
+事前にarchive.zip をダウンロードしていますが、
+以下がダウンロード手順です。
+
+
+次のURLをブラウザで開きダウンロードして下さい。
+Kaggleのサインインが必要な場合はしてください。
+https://www.kaggle.com/datasets/chetankv/dogs-cats-images
+ダウンロードフォルダにできた　archive.zip　を
+TensorFlow2フォルダに移動して下さい。
+
+ターミナルを起動して、TensorFlow2フォルダに移動して
+unzip archive.zip として、解凍して下さい。
+dog vs cat/data というフォルダができます。
+
+その中に　写真が入っています。
+
+データのライセンスは
+CC0 1.0 Universal
+です。
