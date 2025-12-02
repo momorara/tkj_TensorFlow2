@@ -156,5 +156,5 @@ print("学習履歴を training_history.csv に保存しました。")
 # -----------------------------------------
 # 6. 学習済みモデルの保存
 # -----------------------------------------
-model.save('cats_vs_dogs_cnn.h5')
-print("モデル保存完了: cats_vs_dogs_cnn.h5")
+model.save('cats_vs_dogs_cnn.keras')
+print("モデル保存完了: cats_vs_dogs_cnn.keras")

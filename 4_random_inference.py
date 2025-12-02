@@ -14,7 +14,7 @@ from tensorflow.keras.preprocessing import image
 from tensorflow.keras.models import load_model
 
 # 学習済みモデルの読み込み
-model = load_model('cats_vs_dogs_cnn.h5')
+model = load_model('cats_vs_dogs_cnn.keras')
 
 # 推論対象フォルダ（猫・犬の両方を含む上位フォルダ）
 base_dir = 'dataset_s/val'

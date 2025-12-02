@@ -4,7 +4,7 @@ TensorFlowのライセンスは、Apache License 2.0です。
 """
 """
 犬猫分類 推論サンプル（全画像順次処理）
-- 事前に学習済みモデル cats_vs_dogs_cnn.h5 が必要
+- 事前に学習済みモデル cats_vs_dogs_cnn.keras が必要
 - valフォルダ内の全画像に対して推論し、結果を表示
 """
 
@@ -16,7 +16,7 @@ import shutil
 import glob
 
 # 学習済みモデルを読み込み
-model = load_model('cats_vs_dogs_cnn.h5')
+model = load_model('cats_vs_dogs_cnn.keras')
 
 # valフォルダのパス
 val_dir = 'dataset_s/val'
