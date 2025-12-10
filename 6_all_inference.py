@@ -61,7 +61,7 @@ for cls in classes:
                     # print(cls_dir,predicted_class)
                     # break
 
-                    if cls_dir == "dataset_s/val/Cat":
+                    if "Cat" in cls_dir:
                         cat_n = cat_n +1
                         if predicted_class == '猫':
                             catcat = catcat +1
